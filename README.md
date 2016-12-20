@@ -2,7 +2,13 @@ Alexa Skill to retrieve scheduled movies at a Pathe' Cinema in Netherlands.
 
 The following cinema are supported (Amsterdam): City, De Munt, Arena.
 
-### Packaging
+## TODO
+
+- Add support for other cities
+- Remove weird characters and useless stuff from movie title
+- Add better error handling support
+
+## Packaging
 
 I've followed this page http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html in order to creare the deployment package.
 
@@ -15,7 +21,7 @@ Execute these commands
 
 and then invoke ./build.sh
 
-### How to use it
+## How to use it
 
 #### Alexa ask cinema what is the schedule for city
 what is the schedule for {Cinema}
