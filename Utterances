@@ -1,0 +1,14 @@
+GetSchedule what is the schedule for {Cinema}
+GetSchedule what is the schedule for {Cinema} {Day}
+GetSchedule what is the schedule for {Cinema} on {Day}
+GetSchedule what is the schedule for {Cinema} on the {Day}
+
+GetSchedule which is the schedule for {Cinema}
+GetSchedule what is the schedule for {Cinema} {Day}
+GetSchedule what is the schedule for {Cinema} on {Day}
+GetSchedule what is the schedule for {Cinema} on the {Day}
+
+GetMovies which movies are projecting at {Cinema}
+GetMovies which movies are projecting at {Cinema} {Day}
+GetMovies which movies are projecting at {Cinema} on {Day}
+GetMovies which movies are projecting at {Cinema} on the {Day}

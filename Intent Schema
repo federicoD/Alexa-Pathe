@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "intent": "GetSchedule",
+      "slots": [
+        {
+          "name": "Cinema",
+          "type": "LIST_OF_CINEMA"
+        },
+        {
+          "name": "Day",
+          "type": "AMAZON.DATE"      
+        }
+      ]
+    },
+    {
+      "intent": "GetMovies",
+      "slots": [
+        {
+          "name": "Cinema",
+          "type": "LIST_OF_CINEMA"
+        },
+        {
+          "name": "Day",
+          "type": "AMAZON.DATE"      
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
